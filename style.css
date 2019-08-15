@@ -1,0 +1,118 @@
+:root {
+    --border: 1px solid white;
+}
+
+.wrap {
+    width: 800px;
+    height: 700px;
+    margin: auto;
+    background-image: url(background.jpg);
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(75, 119, 190, 0.9);
+}
+
+.header h1 {
+    font-size: 3rem;
+    color: white;
+    direction: rtl;
+    margin: 0 20px 0 0;
+}
+
+.contentArea {
+    width: 100%;
+    height: 450px;
+}
+
+.writingArea {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(242, 241, 239, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plusSign img {
+    width: 90px;
+}
+
+.addfile img {
+    width: 90px;
+}
+
+.camera img {
+    width: 90px;
+}
+
+.messageInput input {
+    width: 470px;
+    height: 45px;
+}
+
+.bubble {
+    width: 70%;
+    height: 80px;
+    float: right;
+    margin: 25px 20px 0 0;
+    border-radius: 15px;
+    background-color: rgba(242, 241, 239, 0.7);
+}
+
+#bubble2 {
+    background-color: rgba(123, 239, 178, 0.7);
+    position: relative;
+    right: 55px;
+}
+
+#HQ {
+    background-color: rgba(241, 169, 160, 0.7);
+}
+
+.time {
+    width: 20%;
+    height: 16%;
+    position: relative;
+    left: 20px;
+    text-align: center;
+}
+
+.time p {
+    margin: 0;
+    position: relative;
+    direction: rtl;
+    color: blue;
+}
+
+.name {
+    width: 45%;
+    height: 18%;
+    position: relative;
+    left: 140px;
+    bottom: 15px;
+    text-align: center;
+}
+
+.name p {
+    margin: 0;
+    position: relative;
+    direction: rtl;
+    color: blue;
+}
+
+.message {
+    width: 80%;
+    height: 70%;
+    position: relative;
+    bottom: 17px;
+    left: 50px;
+    text-align: right;
+}
+
+.message p {
+    margin: 10px 10px 0 0;
+    direction: rtl;
+}
